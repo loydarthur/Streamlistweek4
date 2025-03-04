@@ -1,7 +1,7 @@
 // components/StreamList.js
 import React, { useState, useEffect } from 'react';
 import { FaFilm, FaEdit, FaTrash, FaCheck } from 'react-icons/fa';
-import { normalizeTitle, validateMovie } from '../utils';
+import { validateMovie } from '../utils';
 import './StreamList.css';
 
 // this component manages the movie list and stores changes in local storage
